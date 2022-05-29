@@ -4,7 +4,7 @@ import note from "../Assets/Svg/note.svg";
 const Funds = () => {
   return (
     <div className="py-[100px] bg-[#F1FFFF] mx">
-      <div className="max-w-4xl mx-auto items-center grid grid-cols-2 gap-12">
+      <div className="max-w-4xl px-4 mx-auto items-center grid md:grid-cols-2 gap-12">
         <div>
           <img src={note} alt="" />
         </div>

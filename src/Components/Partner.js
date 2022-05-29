@@ -10,17 +10,17 @@ const Partner = () => {
   return (
     <div className="">
       <div className="bg-white text-center py-[90px]  ">
-        <div className="max-w-3xl mx-auto space-y-4">
-          <h1 className="md:text-5xl font-bold text-[#0D0D0D]">
+        <div className="max-w-3xl mx-auto space-y-4 px-4">
+          <h1 className="md:text-5xl text-2xl font-bold text-[#0D0D0D]">
             We Turn Potential to Real Wealth{" "}
           </h1>
-          <p className="text-2xl text-[#0D0D0D]">
+          <p className="md:text-2xl text-lg text-[#0D0D0D]">
             At Mansa, our team of experts run a pool of well diversified stock
             portfolio on the best Fortune 500 companies of the world today.
           </p>
         </div>
       </div>
-      <div className="bg-[##0A2229] overflow-x-auto py-[65px] flex md:justify-center items-center space-x-[100px] px-4">
+      <div className="bg-[#0A2229] overflow-x-auto py-[65px] flex md:justify-center items-center space-x-[100px] px-4">
         <img src={facebook} alt="" />
         <img src={twitter} alt="" />
         <img src={google} alt="" />
