@@ -9,6 +9,17 @@ import Footer from "./Components/Footer";
 import FooterMobile from "./Components/Footer-Mobile";
 
 const App = () => {
+  const [windowWidth, setWindowWidth] = React.useState(window.innerWidth);
+
+  React.useEffect(() => {
+    function reportWindowSize() {
+      setWindowWidth(window.innerWidth);
+    }
+    // Trigger this function on resize
+    window.addEventListener("resize", reportWindowSize);
+    //  Cleanup for componentWillUnmount
+    return () => window.removeEventListener("resize", reportWindowSize);
+  }, []);
   return (
     <div>
       <div className="hero bg-[#0A1E25] h-full">
@@ -19,8 +30,7 @@ const App = () => {
       <Funds />
       <Getstarted />
       <Faqs />
-      <Footer />
-      <FooterMobile />
+      {windowWidth > 760 ? <Footer /> : <FooterMobile />}
     </div>
   );
 };
