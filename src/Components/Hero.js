@@ -12,12 +12,10 @@ const Hero = () => {
       <div className="mt-10 pb-32 grid md:grid-cols-2 items-center">
         <div className="">
           <h1 className="text-[#E9EBE0] text-2xl ">
-            Maansa Capital is a capital firm with more than $1.8 billion in
-            assets under management that invests early in founders building
-            fast-growing technology companies
+           Maasa is your automated assets management platform, designed to ensure to your financial security through high-value dollar asset investment 
           </h1>
           <button className="bg-[#0BB95D] mt-10 rounded-md text-white font-medium px-6 py-2">
-            Invest Now
+          Explore Mannsa Today
           </button>
         </div>
         <div className="md:block hidden self-end transform -translate-y-10">

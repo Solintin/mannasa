@@ -12,7 +12,7 @@ const Partner = () => {
       <div className="bg-white text-center py-[90px]  ">
         <div className="max-w-3xl mx-auto space-y-4 px-4">
           <h1 className="md:text-5xl text-2xl font-bold text-[#0D0D0D]">
-            We Turn Potential to Real Wealth{" "}
+            Access Secured Dollar Investment,No risks involved
           </h1>
           <p className="md:text-2xl text-lg text-[#0D0D0D]">
             At Mansa, our team of experts run a pool of well diversified stock
